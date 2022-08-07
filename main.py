@@ -15,4 +15,4 @@ async def on_message(message):
       await message.channel.send("Blocking you for spamming | Made By Eagle[.]#0831")
       await message.author.block()
       print("Blocked", message.author, "For spamming Dms")
-client.run(token, bot=True)
+client.run(token, bot=False)
