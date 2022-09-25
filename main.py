@@ -1,7 +1,7 @@
 """Made by Eagle[.]#0831 Don't you dare skid this"""
 import discord
 from discord.ext import commands
-client = commands.Bot(command_prefix="$", self_bot=True)
+client = commands.Bot(command_prefix="$", self_bot=True, intents=discord.Intents.all())
 token = input("Enter Your Account Token => ")
 cd = commands.CooldownMapping.from_cooldown(5, 6, commands.BucketType.user)
 
