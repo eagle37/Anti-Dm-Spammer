@@ -1,4 +1,6 @@
 """Made by Eagle[.]#0831 Don't you dare skid this"""
+import os
+os.system("pip install discord==1.7.3")
 import discord
 from discord.ext import commands
 client = commands.Bot(command_prefix="$", self_bot=True, intents=discord.Intents.all())
